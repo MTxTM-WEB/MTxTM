@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MTxTM - Moda con estilo propio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- NAVBAR -->
+    <header>
+        <div class="logo">
+            <h1>MTxTM</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#home">Inicio</a></li>
+                <li><a href="#about">Sobre Nosotros</a></li>
+                <li><a href="#shop">Tienda</a></li>
+                <li><a href="#contact">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- BANNER PRINCIPAL -->
+    <section id="home" class="hero">
+        <div class="hero-text">
+            <h2>Viste tu Identidad</h2>
+            <p>Descubre la nueva colección de MTxTM</p>
+            <a href="#shop" class="cta-btn">Explora la Colección</a>
+        </div>
+    </section>
+
+    <!-- SECCIÓN PRODUCTOS DESTACADOS -->
+    <section id="featured-products">
+        <h2>Productos Destacados</h2>
+        <div class="product-grid">
+            <div class="product">
+                <img src="producto1.jpg" alt="Producto 1">
+                <h3>Camiseta MTxTM</h3>
+                <p>$20.00</p>
+            </div>
+            <div class="product">
+                <img src="producto2.jpg" alt="Producto 2">
+                <h3>Sudadera MTxTM</h3>
+                <p>$35.00</p>
+            </div>
+            <div class="product">
+                <img src="producto3.jpg" alt="Producto 3">
+                <h3>Pantalón MTxTM</h3>
+                <p>$40.00</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- SOBRE NOSOTROS -->
+    <section id="about">
+        <h2>Sobre MTxTM</h2>
+        <p>MTxTM es más que una marca de ropa. Es un estilo de vida. Diseños únicos y atemporales que te permiten expresar tu identidad.</p>
+    </section>
+
+    <!-- CONTACTO -->
+    <section id="contact">
+        <h2>Contáctanos</h2>
+        <form>
+            <label for="name">Nombre:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Correo electrónico:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Mensaje:</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <!-- PIE DE PÁGINA -->
+    <footer>
+        <p>&copy; 2024 MTxTM - Todos los derechos reservados.</p>
+        <div class="social-media">
+            <a href="#">Instagram</a> | <a href="#">Facebook</a> | <a href="#">Twitter</a>
+        </div>
+    </footer>
+</body>
+</html>
